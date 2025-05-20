@@ -5,21 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template Electron APP</Template></title>
  
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
    
 </head>
 <body>
-    <h1> Template Electron APP</h1>
- Esse é um template com electron
+   <div class="login-container">
+    <h2>TP-Link | Acesso ao Roteador</h2>
+    <div id="login-form">
+      <label for="usuario">Usuário</label>
+      <input type="text" id="usuario" placeholder="Digite seu usuário" required />
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" placeholder="Digite sua senha" required />
+
+      <label for="codigo">Código de Instalação</label>
+      <input type="text" id="codigo" placeholder="Digite o código" required />
+
+      <button id="button-submit">Entrar</button>
+      <div class="error-message" id="error-msg">Credenciais inválidas. Tente novamente.</div>
+    </div>
+  </div>
+
  
-<!-- Arquivo para manipular o DOM -->
+ 
+ 
+ 
+ 
 <script src="../js/script.js"></script>
-   
- 
- 
- 
- 
- 
- 
+
 </body>
 </html>
